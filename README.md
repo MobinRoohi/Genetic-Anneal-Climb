@@ -10,13 +10,13 @@ The Cutting Stock Problem involves efficiently cutting stock materials (like rol
 ### I. Genetic Algorithm
 This implementation of the Genetic Algorithm includes:
 
-Chromosome Representation: Permutation Encoding
-Initial Population: Random Initialization
-Fitness Function: Amount of Wastage
-Parent Selection: Tournament Selection
-Recombination: Order Crossover (OX)
-Mutation: Scramble Mutation
-Replacement: Steady-State Replacement with Elitism
++ Chromosome Representation: Permutation Encoding
++ Initial Population: Random Initialization
++ Fitness Function: Amount of Wastage
++ Parent Selection: Tournament Selection
++ Recombination: Order Crossover (OX)
++ Mutation: Scramble Mutation
++ Replacement: Steady-State Replacement with Elitism
 
 ### II. Simulated Annealing
 This implementation uses the same kind of permutation encoding used in the genetic algorithm's implementation, and it follows the same standard procedure of creating a simulated annealing algorithm using a decreasing temperature for determining the transition probabilities.
